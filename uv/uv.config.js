@@ -1,6 +1,6 @@
 // This file overwrites the stock UV config.js
 
-self.__uv$config = {
+module.exports.self.__uv$config = {
   prefix: "/uv/service/",
   bare: "/https://uv.holyubofficial.net/",
   encodeUrl: Ultraviolet.codec.xor.encode,
